@@ -1,0 +1,303 @@
+body{
+	font-family: 'Anton', sans-serif;
+}
+a{
+	color: inherit;
+	text-decoration: none !important;
+}
+
+a:hover{
+	color: inherit;
+	text-decoration: none !important;
+}
+img{
+	width: 100%;
+}
+/*header css start*/
+
+.header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 10;
+
+
+}
+
+.menu{
+	width: 80px;
+	height: 40px;
+	background: #fff;
+	color: #141414;
+	border: none;
+	float: right;
+	outline: 0 !important;
+	box-shadow: 0 !important;
+	letter-spacing: 3px;
+}
+
+.menu:hover{
+	background: #f39;
+	color: #fff;
+}
+
+.side_bar{
+	position: fixed;
+	top: 0;
+	width: 480px;
+	height: 100%;
+	background: #141414;
+	background-color: rgba(20,20,20,.94);
+	z-index: 850;
+	right: 0%;
+	-webkit-transition: -webkit-transform .35s cubic-bezier(.215,.61,.355,1);
+	transition: transform .35s;
+	transform: translateX(8000px);
+	color: #fff;
+	padding: 60px;
+}
+
+.closeside{
+	position: absolute;
+	right: 30px;
+	top: 0;
+	padding: 28px;
+	cursor: pointer;
+	font-size: 38px;
+}
+
+.side_bar h1{
+	font-size: 80px;
+    font-weight: 900;
+    line-height: 73px;
+}
+
+.side_bar h1:hover{
+	color: #f39;
+	cursor: pointer;
+}
+
+.side_bar input{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: none;
+	color: #fff;
+	font-size: 30px;
+	outline: 0 !important;
+	font-family: sans-serif;
+	margin-bottom: 40px;
+}
+
+.get_ser{
+	position: absolute;
+	box-sizing: border-box;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 30px 60px;
+
+}
+
+.all_link{
+	font-size: 14px;
+	font-family: sans-serif;
+
+}
+
+.all_link p:hover{
+	color: #f39;
+
+}
+
+.logo_img{
+	position: fixed;
+	z-index: 800;
+	left: 40px;
+	top: 13px;
+	width: 160px;
+	height: 60px;
+}
+
+
+/*header css end*/
+
+
+/*slider css start*/
+
+.swiper-slide-next:hover .swiper-slide-active{
+	margin-right: -140px !important;
+}
+.swiper-slide-next:hover> .swiper-slide-prev{
+	margin-right: -140px !important;
+}
+
+
+
+
+.swiper-slide{
+	height:100vh !important;
+	margin-right: -110px;
+	transition-property: initial !important;
+	transition: 0.3s;
+	
+}
+
+.swiper-slide.swiper-slide-next:hover .swiper-slide.swiper-slide-active{
+	margin-right: -150px;
+}
+
+.about_kr{
+	position: absolute;
+    left: 3.7037037%;
+    /*margin-left: 60px;*/
+    bottom: 77px;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.about_kr h1{
+	font-size: 100px;
+	font-weight: 900;
+	display: block;
+	width: 100px;
+	    margin-bottom: 7px;
+    padding-top: .17em;
+    line-height: 1;	
+    color: #141414;
+}
+
+.swiper-button-prev{
+	background-size: 47px !important;
+    background-repeat: no-repeat !important;
+    left: 54px !important;
+    bottom: 84px !important;
+    top: auto !important;
+    width: 47px !important;
+}
+.swiper-button-next{
+	background-size: 47px !important;
+    background-repeat: no-repeat !important;
+    right: 10px !important;
+    left: auto !important;
+    bottom: 84px !important;
+    top: auto !important;
+    width: 47px !important;
+}
+
+.swiper-button-next:after{
+	display: none !important;
+}
+.swiper-button-prev:after{
+	display: none !important;
+}
+
+
+/*slider css end*/
+
+
+div{
+	/*transition: 0.s;*/
+}
+
+
+
+.first_div:hover{
+	background: rgb(191, 191, 191);
+}
+.second_div:hover{
+	background: rgb(237, 195, 24);
+}
+.third_div:hover{
+	background: rgb(40, 115, 250);
+}
+.four_div:hover{
+	background: rgb(242, 92, 83);
+}
+.five_div:hover{
+	background: rgb(72, 48, 169);
+}
+.six_div:hover{
+	background: rgb(230, 100, 165);
+}
+.seven_div:hover{
+	background: rgb(81, 208, 220);
+}
+.eight_div:hover{
+	background: rgb(168, 176, 196);
+}
+.nine_div:hover{
+	background: rgb(255, 100, 35);
+}
+.ten_div:hover{
+	background: rgb(185, 187, 190);
+}
+.eleven_div:hover{
+	background: rgb(198, 130, 217);
+}
+.twelve_div:hover{
+	background: rgb(241, 91, 58);
+}
+.thirteen_div:hover{
+	background: rgb(12, 184, 242);
+}
+
+.work_itms{
+	position: absolute !important;
+	left: 60px;
+	right: 60px;
+	bottom:0;
+}
+
+.work_itms h1{
+	color: #141414;
+}
+
+
+.make_hov:hover{
+	color: #fff !important;
+}
+
+.make_hov:hover h1{
+	color: #fff !important;
+}
+
+.last{
+	/*display: none;*/
+	opacity: 0;
+	transition: 0.5s;
+	transform: translateY(-48px);
+}
+
+.fir{
+	transition: 0.5s;
+}
+
+
+.make_hov:hover .fir{
+	opacity:0;
+}
+
+.make_hov div:nth-child(1){
+	position: relative;
+	overflow: hidden;
+}
+
+.make_hov:hover .last{
+	opacity: 1;
+}
+
+
+.make_hov:hover h1{
+	transform: translateY(-21px);
+}
+
+.work_itms h1{
+	font-size: 100px;
+	font-weight: 900;
+	/*margin-bottom: 0;*/
+	transition: 0.4s;
+}
+.work_itms p{
+	margin-bottom:0;
+}
