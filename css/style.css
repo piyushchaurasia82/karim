@@ -27,8 +27,8 @@ img{
 .menu{
 	width: 80px;
 	height: 40px;
-	background: #fff;
-	color: #141414;
+	background: #141414;
+	color: #fff;
 	border: none;
 	float: right;
 	outline: 0 !important;
@@ -37,8 +37,8 @@ img{
 }
 
 .menu:hover{
-	background: #f39;
-	color: #fff;
+	background: #ffffff;
+	color: #ffd700;
 }
 
 .side_bar{
@@ -73,7 +73,7 @@ img{
 }
 
 .side_bar h1:hover{
-	color: #f39;
+	color: #ffd700;
 	cursor: pointer;
 }
 
@@ -106,7 +106,7 @@ img{
 }
 
 .all_link p:hover{
-	color: #f39;
+	color: #ffd700;
 
 }
 
@@ -164,7 +164,7 @@ img{
 	    margin-bottom: 7px;
     padding-top: .17em;
     line-height: 1;	
-    color: #141414;
+    color: #ffd700;
 }
 
 .swiper-button-prev{
@@ -203,43 +203,43 @@ div{
 
 
 .first_div:hover{
-	background: rgb(191, 191, 191);
+	background: black;
 }
 .second_div:hover{
-	background: rgb(237, 195, 24);
+	background: black;
 }
 .third_div:hover{
-	background: rgb(40, 115, 250);
+	background: black;
 }
 .four_div:hover{
-	background: rgb(242, 92, 83);
+	background: black;
 }
 .five_div:hover{
-	background: rgb(72, 48, 169);
+	background: black;
 }
 .six_div:hover{
-	background: rgb(230, 100, 165);
+	background: black;
 }
 .seven_div:hover{
-	background: rgb(81, 208, 220);
+	background: black;
 }
 .eight_div:hover{
-	background: rgb(168, 176, 196);
+	background: black;
 }
 .nine_div:hover{
-	background: rgb(255, 100, 35);
+	background: black;
 }
 .ten_div:hover{
-	background: rgb(185, 187, 190);
+	background: black;
 }
 .eleven_div:hover{
-	background: rgb(198, 130, 217);
+	background: black;
 }
 .twelve_div:hover{
-	background: rgb(241, 91, 58);
+	background: black;
 }
 .thirteen_div:hover{
-	background: rgb(12, 184, 242);
+	background: black;
 }
 
 .work_itms{
@@ -250,7 +250,7 @@ div{
 }
 
 .work_itms h1{
-	color: #141414;
+	color: #ffd700;
 }
 
 
